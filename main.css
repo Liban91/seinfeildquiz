@@ -1,0 +1,61 @@
+body {
+  width: 100%;
+  background: #FF8008;
+  background: -webkit-linear-gradient(to right, #FFC837, #FF8008);
+  background: linear-gradient(to right, #FFC837, #FF8008);
+}
+
+.title {
+  text-align: center;
+}
+
+#home {
+  background-size: cover;
+}
+
+.header {
+  text-align: center;
+  color: #427df4;
+  border-radius: 10px;
+  padding: 1 0 1 0;
+  padding: 220px 55px;
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 65px;
+  background-image: url(./images/cartoon.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.score {
+  font-size: 30px;
+  font-family: 'Black Han Sans', sans-serif;
+  border-radius: 10px;
+  margin-bottom: 2px;
+  padding-bottom: 2.5px;
+  background-position: center;
+  text-align: center;
+}
+
+.title {
+  color: #ff002a;
+}
+
+.submit {
+  font-size: 30px;
+  text-align: center;
+}
+
+.question {
+  text-align: center;
+  border-style: solid;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 2px;
+  padding-bottom: 4.5px;
+  background-color: #b3ecff;
+  font-size: 20px;
+  font-family: 'Black Han Sans', sans-serif;
+}

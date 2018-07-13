@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Everything Seinfeld</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body id="home" class="bg-warning">
+  <div class="header">
+    <div class="container-fluid">
+      <h1>The Seinfeld Quiz</h1>
+      <div id="results">
+        <h2>You scored: No score attempted</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="body">
+    <form name="quiz" onsubmit="return onSubmit()">
+      <div class="question">
+        <h1>What causes Georges fiance Susan to die?</h1>
+        <input type="radio" name="q1" value="a">a. Cheap wedding invitations<br>
+        <input type="radio" name="q1" value="b">b. Allergic reaction<br>
+        <input type="radio" name="q1" value="c">c. Car Crash<br>
+      </div>
+      <div class="question">
+        <h1>Where do Jerry's parents live?</h1>
+        <input type="radio" name="q2" value="a">a. California<br>
+        <input type="radio" name="q2" value="b">b. New York<br>
+        <input type="radio" name="q2" value="c">c. Florida<br>
+      </div>
+      <div class="question">
+        <h1>What is the official date of Festivus?</h1>
+        <input type="radio" name="q3" value="a">a. July 4th<br>
+        <input type="radio" name="q3" value="b">b. December 23rd<br>
+        <input type="radio" name="q3" value="c">c. October 31st<br>
+      </div>
+      <div class="question">
+        <h1>If someone upsets the "Soup Nazi" What does he yell?</h1>
+        <input type="radio" name="q4" value="a">a.No soup for you !<br>
+        <input type="radio" name="q4" value="b">b.You go home!<br>
+        <input type="radio" name="q4" value="c">c. Come back in one month!<br>
+      </div>
+      <div class="question">
+        <h1>What did Newman do for a living?</h1>
+        <input type="radio" name="q5" value="a">a.Security Officer<br>
+        <input type="radio" name="q5" value="b">b. Mailman<br>
+        <input type="radio" name="q5" value="c">c. Bartender<br>
+      </div>
+      <div class="question">
+        <h1>What Baseball player did Kramer and Newman claim spit on them?</h1>
+        <input type="radio" name="q6" value="a">a. Keith Hernandez<br>
+        <input type="radio" name="q6" value="b">b. Sammy Sosa<br>
+        <input type="radio" name="q6" value="c">c. Darryl Strawberry<br>
+      </div>
+      <div class="question">
+        <h1>What did Kramer call the fragrance that Calvin Klein stole from him?</h1>
+        <input type="radio" name="q7" value="a">a. The Sea<br>
+        <input type="radio" name="q7" value="b">b. The Beach<br>
+        <input type="radio" name="q7" value="c">c. The Ocean<br>
+      </div>
+      <div class="question">
+        <h1>What sports team did George work for?</h1>
+        <input type="radio" name="q8" value="a">a. Yankees<br>
+        <input type="radio" name="q8" value="b">b. Mets<br>
+        <input type="radio" name="q8" value="c">c. Knicks<br>
+      </div>
+      <div class="question">
+        <h1>What is Kramer's first name?</h1>
+        <input type="radio" name="q9" value="a">a. Joe<br>
+        <input type="radio" name="q9" value="b">b. Frank<br>
+        <input type="radio" name="q9" value="c">c. Cosmo<br>
+      </div>
+      <div class="question">
+        <h1>What is the show Seinfeld about?</h1>
+        <input type="radio" name="q10" value="a">a. Living in New York<br>
+        <input type="radio" name="q10" value="b">b. Nothing<br>
+        <input type="radio" name="q10" value="c">c. Dating<br>
+      </div>
+      <br>
+      <br>
+      <button id="submit "type="sumbit" class="btn btn-danger btn-lg container-fluid text-center">Submit</button>
+  </div>
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+  <script src="https://code.angularjs.org/1.6.6/angular-route.min.js"></script>
+  <script src="./assets/game.js"></script>
+</body>
+
+</html>
